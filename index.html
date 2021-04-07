@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Owl City Site</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 15px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  font-size: 15px;
+}
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #497f9e;
+  color: white;
+}
+iframe {
+  width: 90%;
+}
+
+#Home {background-color: white;}
+#OceanEyes {background-color: white;}
+#AllThingsBrightAndBeautiful {background-color: white;}
+#About {background-color: white;}
+#TheMidsummerStation {background-color: white;}
+    
+    
+    </style>
+  </head>
+<body>
+
+<div class="jumbotron text-center">
+  <!-- <h1>My First Bootstrap Page</h1>  -->
+    <img src="owl-city-logo-art-2.png" alt="Owl City Logo">
+    <p>Three Album Website</p>
+</div>
+  
+    
+<button class="tablink" onclick="openPage('Home', this, 'grey')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('OceanEyes', this, 'grey')" >Ocean Eyes</button>
+<button class="tablink" onclick="openPage('AllThingsBrightAndBeautiful', this, 'grey')">All Things Bright And Beautiful</button>
+<button class="tablink" onclick="openPage('TheMidsummerStation', this, 'grey')">The Midsummer Station</button>
+<button class="tablink" onclick="openPage('About', this, 'grey')">About</button>
+
+<div id="Home" class="tabcontent">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="Owlcity.png" alt="Owl City Stock Picture" style="width:70%">
+                <h3>Welcome...</h3>
+                <p>Home is where the heart is...</p>
+            </div>
+        </div>
+    </div>
+
+  
+</div>
+
+<div id="OceanEyes" class="tabcontent">
+  <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="Owl-city-ocean-eyes-2009.jpg" alt="Ocean Eyes" style="width:70%">
+                <p>Release Date: July 28, 2009</p>
+            </div>
+            <div class="col-sm-6">
+                <h4>Track Listing: </h4>
+                <p>1. Cave In </p>
+                <p>2. The Bird And The Worm </p>
+                <p>3. Hello Seattle </p>
+                <p>4. Umbrella Beach </p>
+                <p>5. The Saltwater Room </p>
+                <p>6. Dental Care</p>
+                <p>7. Meteor Shower</p>
+                <p>8. On The Wing</p>
+                <p>9. Fireflies</p>
+                <p>10. The Tip of The Iceberg</p>
+                <p>11. Vanilla Twilight</p>
+                <p>12. Tidal Wave</p>
+                <p>and other bonus tracks...</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLvWlmxMSVNDsbbMb4ZCGQSJWRUTC-Y1Un" frameborder="0"  allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div id="AllThingsBrightAndBeautiful" class="tabcontent">
+   <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="Album_All_Things_Bright_and_Beautiful_Cover.jpg" alt="All Things Bright and Beautiful" style="width:70%">
+                <p>Release Date: June 14, 2011</p>
+            </div>
+            <div class="col-sm-6">
+                <h4>Track Listing: </h4>
+                <p>1. The Real World </p>
+                <p>2. Deer In The Headlights </p>
+                <p>3. Angels </p>
+                <p>4. Dreams Don't Turn Into Dust </p>
+                <p>5. Honey And The Bee </p>
+                <p>6. Kamikaze</p>
+                <p>7. January 28, 1986</p>
+                <p>8. Galaxies</p>
+                <p>9. Hospital Flowers</p>
+                <p>10. Alligator Sky</p>
+                <p>11. Yacht Club</p>
+                <p>12. Plant Life</p>
+                <p>and other bonus tracks...</p>
+            </div>
+        </div>
+    </div>
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_hggrBndCXWI8RfoQZwQlRiAD8sUch-L" frameborder="0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="About" class="tabcontent">
+    
+ <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>About</h3>
+                <img src="AdamYoung.jpg" alt="Adam Young" style="width:30%">
+                 <p>Adam Randal Young (born July 5, 1986) is Owl City's founder and only constant member. He was born in Ottumwa, Iowa and raised in Owatonna, Minnesota, where he graduated from Owatonna Senior High School and then found work at a Coca-Cola shipping warehouse. He began composing melodies in his head while working, which he would then record in his studio in his parents' basement.</p>
+                <p>Young is a devout Christian and stated that his faith is the only thing more important to him than music. He has described himself as introverted and believes he has symptoms of Asperger syndrome; however, it has not been diagnosed.</p>
+            </div>
+        </div>
+    </div>
+  
+
+</div>    
+    
+<div id="TheMidsummerStation" class="tabcontent">
+   <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                
+                <img src="Owl_City_-_The_Midsummer_Station_cover_art.jpg" alt="The Midsummer Station" style="width:70%">
+                <p>Release Date: August 17, 2012</p>
+                
+            </div>
+            <div class="col-sm-6">
+                <h4>Track Listing: </h4>
+                <p>1. Dreams And Disasters</p>
+                <p>2. Shooting Star</p>
+                <p>3. Gold</p>
+                <p>4. Dementia</p>
+                <p>5. I'm Coming After You</p>
+                <p>6. Speed OF Love</p>
+                <p>7. Good Time</p>
+                <p>8. Embers</p>
+                <p>9. Silhouette</p>
+                <p>10. Metropolis</p>
+                <p>11. Take It All Away</p>
+                <p>and other bonus tracks...</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_hggrBndCXXgLf2k0XpnLy2aAmMzLrg2" frameborder="0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div>
+    </div>
+</div>   
+    
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      </div>
+  </div>
+</div>
+    
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Website Created by Bryce Quintana</p>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
